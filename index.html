@@ -38,23 +38,33 @@
     <div class="centered">
       <h1 id="bus-name">The Broom Closet</h1>
       <p id="bus-description">Exceptional brooms for every quidditch player</p>
-      <div class="video-wrapper">
+      <div class="video-wrapper" id="demo">
         <iframe id="video" src="https://www.youtube.com/embed/YOVS9yn2R7c" width="720"></iframe>
       </div>
     </div>
 
 
+    <div class="centered">
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+        <h3>Stay up to date with the latest broom technology</h3>
+        <label>Email:<input id="email" type="email" name="email" placeholder="user@email.com"></input>
+        </label>
+        <input id="submit" type="submit" value="Submit"></input>
+      </form>
+    </div>
 
 
-    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
-      <h3>Stay up to date with the latest broom technology</h3>
-      <label>Email:<input id="email" type="email" name="email" placeholder="user@email.com"></input>
-      </label>
-      <input id="submit" type="submit" value="Submit"></input>
-    </form>
-
-
-
+    <div id="features" class="flex">
+      <div id="hexproof" class="feat-show">
+        <i class="fas fa-magic"></i>
+      </div>
+      <div id="fine-mats" class="feat-show">
+        <i class="fas fa-broom"></i>
+      </div>
+      <div id="service" class="feat-show">
+        <i class="fas fa-wrench"></i>
+      </div>
+    </div>
 </div>
   <!-- JavaScript -->
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
