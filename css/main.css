@@ -97,6 +97,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+* {
+  font-family: Helvetica, sans-serif;
+}
+
 
 #header-div {
   position:fixed;
@@ -171,6 +175,23 @@ iframe {
   border: 0;
 }
 
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80vw;
+}
+
+.feat-show {
+  height: 300px;
+  width: 200px;
+  text-align: left;
+}
+
+div>i {
+  margin-left: 25%
+}
 
 
 
