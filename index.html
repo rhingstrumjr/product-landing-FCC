@@ -23,30 +23,33 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <header id="header">
-    <div id="bus-info">
-      <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/1/18/Quidditch_pictogram.svg" alt="Quidditch pictogram">
-      The Broom Closet
-    </div>
-    <nav id="nav-bar">
-      <a class="nav-link" href="#demo">Demo</a>
-      <a class="nav-link" href="#features">Features</a>
-      <a class="nav-link" href="#pricing">Pricing</a>
-    </nav>
-  </header>
+  <div id="header-div">
+    <header id="header">
+        <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/1/18/Quidditch_pictogram.svg" alt="Quidditch pictogram">
+        <span>The Broom Closet</span>
+      <nav id="nav-bar">
+        <a class="nav-link" href="#demo">Demo</a>
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+      </nav>
+    </header>
+  </div>
+  <div id="body">
+    <h1 id="bus-name">The Broom Closet</h1>
+    <p id="bus-description">Exceptional brooms for every quidditch player</p>
 
-  <h1 id="bus-name">The Broom Closet</h1>
-  <p id="bus-description">Exceptional brooms for every quidditch player</p>
+    <iframe id="video" src="https://www.youtube.com/embed/YOVS9yn2R7c" width="720" height="480"></iframe>
 
-  <iframe id="video" src="https://www.youtube.com/embed/YOVS9yn2R7c" width="720" height="480"></iframe>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+      <h3>Stay up to date with the latest broom technology</h3>
+      <label>Email:<input id="email" type="email" name="email" placeholder="user@email.com"></input>
+      </label>
+      <input id="submit" type="submit" value="Submit"></input>
+    </form>
 
-  <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
-    <h3>Stay up to date with the latest broom technology</h3>
-    <label>Email:<input id="email" type="email" name="email" placeholder="user@email.com"></input>
-    </label>
-    <input id="submit" type="submit" value="Submit"></input>
-  </form>
 
+
+</div>
   <!-- JavaScript -->
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
