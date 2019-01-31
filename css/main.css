@@ -106,7 +106,8 @@ textarea {
   position:fixed;
   width: 100%;
   height: 20vh;
-  background-color: lightgray;
+  background-color: rgba(134, 92, 30, 1);
+  z-index: 2;
 }
 
 #bus-info {
@@ -122,6 +123,7 @@ header {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
+
 }
 
 
@@ -163,6 +165,7 @@ span {
   position: relative;
   overflow: hidden;
   padding-top: 56.25%;
+  margin-bottom: 1em;
 }
 
 
@@ -176,6 +179,13 @@ iframe {
 }
 
 
+form {
+  background-color: rgba(134, 92, 30, 0.7);
+  padding-bottom: 1.2em;
+  padding-top: .2em;
+  margin-bottom: 1.2em;
+}
+
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -184,7 +194,7 @@ iframe {
 }
 
 .feat-show {
-  height: 300px;
+  height: 220px;
   width: 200px;
   text-align: left;
 }
@@ -193,10 +203,36 @@ div>i {
   margin-left: 25%
 }
 
+.product>img {
+  max-width: 185px;
+  object-fit: scale-down;
+}
 
 
+footer {
+  text-align: right;
+}
+
+.product, .feat-show {
+  padding-bottom: 2em;
+}
 
 
+#footer-div {
+  background-color: rgba(134, 92, 30, 1);
+}
+
+
+p {
+  margin-bottom: 0;
+  padding-bottom: 1em;
+}
+
+@media only screen and (max-width: 750px) {
+  .flex {
+    width: 220px;
+  }
+}
 
 
 
