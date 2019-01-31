@@ -100,7 +100,7 @@ textarea {
 #header-div {
   position:fixed;
   width: 100%;
-  height: 75px;
+  height: 20vh;
   background-color: lightgray;
 }
 
@@ -109,7 +109,7 @@ textarea {
 }
 
 img {
-  height: 75px;
+  height: 20vh;
 }
 
 
@@ -130,17 +130,20 @@ nav {
   text-align: right;
 }
 
+
 span {
   white-space: nowrap;
   align-self: center;
 }
+
+
 .nav-link {
   margin-right: 1.5em;
 }
 
 
 #body {
-  padding-top: 75px;
+  padding-top: 20vh;
 }
 
 
